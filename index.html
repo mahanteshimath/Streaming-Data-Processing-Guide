@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Data Processing Technologies Guide 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Streaming Data Processing Technologies Guide 2025</h1>
+            <nav class="header__nav">
+                <button class="nav-btn" data-section="overview">Overview</button>
+                <button class="nav-btn" data-section="comparison">Technology Comparison</button>
+                <button class="nav-btn" data-section="cost-analysis">Cost Analysis</button>
+                <button class="nav-btn" data-section="use-case">Use Case Selector</button>
+                <button class="nav-btn" data-section="examples">Real-world Examples</button>
+                <button class="nav-btn" data-section="decision">Decision Matrix</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main container">
+        <!-- Overview Section -->
+        <section id="overview" class="section active">
+            <div class="section-header">
+                <h2>Overview of Streaming Data Processing</h2>
+                <p class="section-description">Understanding real-time data processing and the modern streaming ecosystem</p>
+            </div>
+            
+            <div class="overview-grid">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>What is Streaming Data Processing?</h3>
+                        <p>Streaming data processing enables real-time analysis of continuous data streams, allowing organizations to make immediate decisions based on fresh information. Unlike batch processing, streaming handles data as it arrives, providing sub-second to millisecond latency for critical applications.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Current Market Trends</h3>
+                        <ul>
+                            <li>Growing adoption of cloud-native solutions</li>
+                            <li>Increased focus on edge computing</li>
+                            <li>Integration with ML/AI pipelines</li>
+                            <li>Serverless streaming platforms</li>
+                            <li>Real-time data governance</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Key Benefits</h3>
+                        <ul>
+                            <li><strong>Real-time insights:</strong> Immediate decision making</li>
+                            <li><strong>Improved customer experience:</strong> Instant responses</li>
+                            <li><strong>Fraud prevention:</strong> Quick detection and response</li>
+                            <li><strong>Operational efficiency:</strong> Proactive monitoring</li>
+                            <li><strong>Competitive advantage:</strong> Faster time to market</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="architecture-diagram">
+                <h3>Typical Streaming Architecture</h3>
+                <div class="image-container">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1750861519/gpt4o_images/grl0c2vdolhve8gjdkc1.png" alt="Streaming Data Processing Architecture" class="architecture-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Comparison Section -->
+        <section id="comparison" class="section">
+            <div class="section-header">
+                <h2>Technology Comparison Dashboard</h2>
+                <p class="section-description">Compare streaming technologies across different criteria</p>
+            </div>
+            
+            <div class="comparison-controls">
+                <div class="form-group">
+                    <label class="form-label" for="type-filter">Filter by Type:</label>
+                    <select id="type-filter" class="form-control">
+                        <option value="all">All Types</option>
+                        <option value="Open Source">Open Source</option>
+                        <option value="Managed">Managed</option>
+                        <option value="Cloud Managed">Cloud Managed</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label" for="sort-criteria">Sort by:</label>
+                    <select id="sort-criteria" class="form-control">
+                        <option value="name">Name</option>
+                        <option value="latency">Latency</option>
+                        <option value="throughput">Throughput</option>
+                        <option value="type">Type</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="comparison-charts">
+                <div class="chart-container">
+                    <h3>Framework Comparison: Latency vs Throughput</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1750861371/pplx_code_interpreter/59ebb773_fpyupz.jpg" alt="Streaming Frameworks Comparison" class="comparison-chart">
+                </div>
+                
+                <div class="chart-container">
+                    <h3>Technology Suitability Heatmap</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1750861458/pplx_code_interpreter/01b0f7a8_acrhvz.jpg" alt="Streaming Technologies Heatmap" class="comparison-chart">
+                </div>
+            </div>
+            
+            <div class="comparison-table-container">
+                <table id="tech-comparison-table" class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Technology</th>
+                            <th>Type</th>
+                            <th>Latency</th>
+                            <th>Throughput</th>
+                            <th>Pros</th>
+                            <th>Cons</th>
+                            <th>Starting Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Cost Analysis Section -->
+        <section id="cost-analysis" class="section">
+            <div class="section-header">
+                <h2>Cost Analysis Tool</h2>
+                <p class="section-description">Estimate costs for different deployment scenarios</p>
+            </div>
+            
+            <div class="cost-calculator">
+                <div class="calculator-inputs">
+                    <div class="form-group">
+                        <label class="form-label" for="company-size">Company Size:</label>
+                        <select id="company-size" class="form-control">
+                            <option value="startup">Startup (< 50 employees)</option>
+                            <option value="medium">Medium Enterprise (50-1000 employees)</option>
+                            <option value="large">Large Enterprise (1000+ employees)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="data-volume">Monthly Data Volume (GB):</label>
+                        <input type="range" id="data-volume" class="form-control" min="1" max="10000" value="100">
+                        <span id="data-volume-display">100 GB</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="latency-requirement">Latency Requirement:</label>
+                        <select id="latency-requirement" class="form-control">
+                            <option value="low">Low (< 100ms)</option>
+                            <option value="medium">Medium (100ms - 1s)</option>
+                            <option value="high">High (> 1s acceptable)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="cost-results">
+                    <h3>Estimated Monthly Costs</h3>
+                    <div id="cost-breakdown" class="cost-breakdown">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Case Selector Section -->
+        <section id="use-case" class="section">
+            <div class="section-header">
+                <h2>Use Case Selector</h2>
+                <p class="section-description">Find the best streaming technology for your specific needs</p>
+            </div>
+            
+            <div class="use-case-selector">
+                <div class="use-case-grid">
+                    <!-- Populated by JavaScript -->
+                </div>
+                
+                <div class="recommendations" id="recommendations">
+                    <h3>Recommended Technologies</h3>
+                    <div id="recommendation-results">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real-world Examples Section -->
+        <section id="examples" class="section">
+            <div class="section-header">
+                <h2>Real-world Examples</h2>
+                <p class="section-description">Success stories and case studies from industry leaders</p>
+            </div>
+            
+            <div class="examples-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Decision Matrix Section -->
+        <section id="decision" class="section">
+            <div class="section-header">
+                <h2>Decision Matrix</h2>
+                <p class="section-description">Interactive decision tree to help choose the right technology</p>
+            </div>
+            
+            <div class="decision-tree">
+                <div class="decision-step active" id="step-1">
+                    <h3>Step 1: What's your primary use case?</h3>
+                    <div class="decision-options">
+                        <button class="btn btn--outline decision-btn" data-choice="analytics">Real-time Analytics</button>
+                        <button class="btn btn--outline decision-btn" data-choice="etl">ETL/Data Integration</button>
+                        <button class="btn btn--outline decision-btn" data-choice="iot">IoT Data Processing</button>
+                        <button class="btn btn--outline decision-btn" data-choice="logs">Log Aggregation</button>
+                        <button class="btn btn--outline decision-btn" data-choice="financial">Financial Services</button>
+                        <button class="btn btn--outline decision-btn" data-choice="fraud">Fraud Detection</button>
+                    </div>
+                </div>
+                
+                <div class="decision-step" id="step-2">
+                    <h3>Step 2: What's your budget preference?</h3>
+                    <div class="decision-options">
+                        <button class="btn btn--outline decision-btn" data-choice="low">Low (Open Source)</button>
+                        <button class="btn btn--outline decision-btn" data-choice="medium">Medium (Managed Services)</button>
+                        <button class="btn btn--outline decision-btn" data-choice="high">High (Enterprise Solutions)</button>
+                    </div>
+                </div>
+                
+                <div class="decision-step" id="step-3">
+                    <h3>Step 3: What's your team's expertise level?</h3>
+                    <div class="decision-options">
+                        <button class="btn btn--outline decision-btn" data-choice="beginner">Beginner</button>
+                        <button class="btn btn--outline decision-btn" data-choice="intermediate">Intermediate</button>
+                        <button class="btn btn--outline decision-btn" data-choice="expert">Expert</button>
+                    </div>
+                </div>
+                
+                <div class="decision-results" id="decision-results">
+                    <h3>Recommended Technology</h3>
+                    <div id="final-recommendation">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

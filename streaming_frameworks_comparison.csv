@@ -1,0 +1,10 @@
+Framework,Type,Key Features,Best For,Latency
+Apache Kafka,Distributed streaming platform,"High throughput, fault-tolerant, distributed commit log","High-volume data ingestion, event sourcing, log aggregation",Medium
+Apache Flink,Stream processing framework,"True real-time stream processing, stateful computations, event time processing","Low-latency processing, complex event processing, stateful applications",Very Low
+Apache Spark Streaming,Micro-batch processing engine,"Micro-batch processing, integration with Spark ecosystem, unified API","Batch and stream processing, ML integration, complex transformations",Medium-High
+Estuary Flow,Real-time ETL platform,"Real-time ETL, sub-100ms latency, managed schema","Real-time ETL, CDC, data integration pipelines",Very Low
+Confluent Kafka,Managed Kafka service,"Enterprise-grade Kafka, Schema Registry, ksqlDB","Enterprise Kafka deployments, fully managed streaming",Medium
+Apache Pulsar,Distributed messaging system,"Multi-layered architecture, tiered storage, geo-replication","Cloud-native deployments, multi-tenancy, long-term retention",Low
+AWS Kinesis,Managed streaming service (AWS),"Managed service, auto-scaling, integration with AWS services","AWS ecosystem integration, serverless streaming",Low
+Azure Event Hubs,Managed streaming service (Azure),"Managed service, integration with Azure services, Kafka compatibility","Azure ecosystem integration, IoT data streaming",Low
+Google Cloud Dataflow,Managed streaming service (GCP),"Serverless, auto-scaling, unified batch/stream processing","GCP ecosystem integration, unified batch/stream processing",Medium

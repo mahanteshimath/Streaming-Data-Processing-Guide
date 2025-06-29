@@ -1,0 +1,10 @@
+Platform,Pricing Model,Starting Cost,Enterprise Cost Scale,Cost Factors
+Apache Kafka (Self-hosted),Infrastructure costs only,Variable (server costs),High (infrastructure + management),"Servers, storage, network, admin overhead"
+Confluent Kafka (Cloud),"Tiered pricing (Basic, Standard, Enterprise)","$0 (free tier) - $1,100/month (standard)","$3,300+/month (Enterprise tier)","CKUs, data transfer, storage, connectors"
+Apache Flink (Self-hosted),Infrastructure costs only,Variable (server costs),High (infrastructure + management),"Servers, storage, network, admin overhead"
+Databricks (Managed Spark),DBU consumption-based pricing,Variable based on usage,High (scales with usage),"Compute time, storage, processing power"
+AWS Kinesis,Pay-per-GB ingested + processing units,$0.08/GB ingested + $0.04/stream/hour,Medium-High (scales with data volume),"Data ingestion, retrieval, retention period"
+Azure Event Hubs,Throughput units + ingress events,"Basic: $0.10/hour per TU, Standard: $0.19/hour per TU",Premium: $10.45/hour per Processing Unit,"Throughput units, processing units, events ingested"
+Google Cloud Dataflow,"Pay-as-you-go (compute, Streaming Engine, shuffle)",Variable based on usage,Medium-High (scales with usage),"Compute resources, streaming engine usage"
+Estuary Flow,Usage-based with free tier,Free tier available,Medium (scales with usage),"Data volume processed, connectors used"
+Apache Pulsar (Self-hosted),Infrastructure costs only,Variable (server costs),High (infrastructure + management),"Servers, storage, network, admin overhead"
